@@ -37,7 +37,7 @@
 .buttons {
     background-color: transparent;
     border-color: transparent;
-    font-size: 30px;
+    font-size: 24px;
     margin-left: 1.5vw;
     border-radius: 20px;
 }
@@ -79,7 +79,7 @@
 .form-send-button {
     background-color: #f96d00;
     width: 20vw;
-    font-size: 30px;
+    font-size: 24px;
     border-radius: 20px;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .paragraph-titles {
-    font-size: 30px;
+    font-size: 18px;
     margin-bottom: 1.5vh;
 }
 

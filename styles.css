@@ -1,0 +1,129 @@
+.background {
+    background-color: #222831;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.navbar {
+    background-color: #393E46;
+    height: 10vh;
+    width: 100%;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.15);
+    
+}
+
+.background-company-name {
+    width: 45vw;
+    display: flex;
+    align-items: center;
+}
+
+.company-label {
+    font-size: 40px;
+}
+
+.background-buttons {
+    width: 45vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttons {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 30px;
+    margin-left: 1.5vw;
+    border-radius: 20px;
+}
+
+.buttons:hover {
+    background-color: #f96d00;
+    transition: 0.5s;
+}
+
+.about-us {
+    margin-top: 20vh;
+}
+
+.about-us, .services, .advantages, .benefits, .contact-us {
+    width: 90vw;
+    text-align: justify;
+}
+
+.form-background {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-text {
+    width: 60vw;
+    color: #222831;
+}
+
+.form-send-button {
+    background-color: #f96d00;
+    width: 20vw;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.titles {
+    font-size: 36px;
+    margin-bottom: 1.5vh;
+}
+
+.paragraph-titles {
+    font-size: 30px;
+    margin-bottom: 1.5vh;
+}
+
+.bottom-bar {
+    background-color: #2b2f35;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .company-label {
+        font-size: 20px;
+    }
+    
+    .buttons {
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    
+    .titles {
+        font-size: 18px;
+    }
+    
+    .paragraph-titles {
+        font-size: 15px;
+    }
+
+    .form-send-button {
+        background-color: #f96d00;
+        width: 25vw;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+}
